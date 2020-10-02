@@ -1,0 +1,144 @@
+:root {
+    --horiseon-element-bg-color: #0072bb;
+    --horiseon-text-color: #ffffff;
+    --horiseon-bg-color: #d9dcd6;
+    --horiseon-logo-alt-color: #1b1b1b;
+    --horiseon-logo-font-family: "Trebuchet MS", "Lucida Sans Unicode",
+      "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    --horiseon-body-font-family: "Gill Sans", "Gill Sans MT", Calibri,
+      "Trebuchet MS", sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: var(--horiseon-bg-color);
+  }
+  
+  header {
+    padding: 20px;
+    font-family: var(--horiseon-logo-font-family);
+    background-color: var(--horiseon-element-bg-color);
+    color: var(--horiseon-text-color);
+  }
+  
+  header h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  
+  header h1 .seo {
+    color: var(--horiseon-logo-alt-color);
+  }
+  
+  header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: var(--horiseon-body-font-family);
+    font-size: 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  a {
+    color: var(--horiseon-text-color);
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .hero {
+    display: block;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .float-left {
+    float: left;
+    margin-right: 25px;
+  }
+  
+  .float-right {
+    float: right;
+    margin-left: 25px;
+  }
+  
+  
+  .services-container {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    color: var(--horiseon-text-color);
+  }
+  
+  .services-article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--horiseon-body-font-family);
+    background-color: var(--horiseon-element-bg-color);
+  }
+  
+  .services-article img {
+    max-height: 200px;
+  }
+  
+  .services-article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .benefits-container {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: var(--horiseon-body-font-family);
+    background-color: var(--horiseon-element-bg-color);
+    color: var(--horiseon-text-color);
+  }
+  
+  .benefit-article {
+    margin-bottom: 32px;
+  }
+  
+  .benefit-article h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .benefit-article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+  }
+  
+  footer {
+    padding: 30px;
+    clear: both;
+    font-family: var(--horiseon-logo-font-family);
+    text-align: center;
+  }
+  
+  footer h2 {
+    font-size: 20px;
+  }
